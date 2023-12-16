@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISLublЗаказ",
+  "modelName": "i-i-s-lubl-заказ",
+  "className": "Заказ",
+  "nameSpace": "IIS.Lubl",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаЗаказа",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "типОплаты",
+      "type": "i-i-s-lubl-оплата",
+      "flexberryType": "Оплата",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказE",
+      "modelName": "i-i-s-lubl-заказ",
+      "attrs": [
+        {
+          "name": "датаЗаказа",
+          "caption": "Дата заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗаказL",
+      "modelName": "i-i-s-lubl-заказ",
+      "attrs": [
+        {
+          "name": "датаЗаказа",
+          "caption": "Дата заказа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "типОплаты",
+          "caption": "Тип оплаты",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

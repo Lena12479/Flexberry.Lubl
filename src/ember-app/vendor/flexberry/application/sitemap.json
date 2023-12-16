@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Lubl",
+  "applicationTitle": "Lubl",
+  "items": [
+    {
+      "link": null,
+      "menuName": "lubl",
+      "caption": "Lubl",
+      "title": "Lubl",
+      "children": [
+        {
+          "link": "i-i-s-lubl-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
